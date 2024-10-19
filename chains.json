@@ -1,0 +1,14 @@
+{
+    "validator1": {
+            "name": "Validator Moniker 1",
+            "rpc": "https://rpc-story.josephtran.xyz",
+            "hash": "validator-hex-address",
+            "threshold": 10
+    },
+    "validator2": {
+            "name": "Validator Moniker 2",
+            "rpc": "https://story-rpc.validatorvn.com",
+            "hash": "validator-hex-address",
+            "threshold": 10
+    }
+}

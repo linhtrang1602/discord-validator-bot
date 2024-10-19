@@ -1,0 +1,12 @@
+[Unit]
+Description = validator monitor for %i
+PartOf = validator.target
+
+[Service]
+Type = simple
+WorkingDirectory = $HOME/discord-validator-bot/
+ExecStart = /usr/bin/python3 -u $HOME/discord-validator-bot/story.py %i
+User = root
+
+[Install]
+WantedBy=validator.target

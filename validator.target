@@ -1,0 +1,6 @@
+[Unit]
+Description=validator worker
+Requires=validator@validator-1.service validator@validator-2.service
+
+[Install]
+WantedBy=multi-user.target
